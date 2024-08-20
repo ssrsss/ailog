@@ -10,36 +10,6 @@ export default defineConfig({
     outlineTitle: "文章目录",
     outline: [2, 6],
     i18nRouting: true,
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          zh: { // make this `root` if you want to translate the default locale
-            translations: {
-              button: {
-                buttonText: '搜索',
-                buttonAriaLabel: '搜索'
-              },
-              modal: {
-                displayDetails: '显示详细列表',
-                resetButtonTitle: '重置搜索',
-                backButtonTitle: '关闭搜索',
-                noResultsText: '没有结果',
-                footer: {
-                  selectText: '选择',
-                  selectKeyAriaLabel: '输入',
-                  navigateText: '导航',
-                  navigateUpKeyAriaLabel: '上箭头',
-                  navigateDownKeyAriaLabel: '下箭头',
-                  closeText: '关闭',
-                  closeKeyAriaLabel: 'esc'
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
