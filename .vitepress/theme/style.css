@@ -42,32 +42,32 @@
  * - `danger`: Used to show error, or dangerous message to the users. Used
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
-
  :root {
-  --vp-c-default-1: var(--vp-c-gray-1);
-  --vp-c-default-2: var(--vp-c-gray-2);
-  --vp-c-default-3: var(--vp-c-gray-3);
-  --vp-c-default-soft: var(--vp-c-gray-soft);
+  /* Color Variables */
+  --vp-c-default-1: #f0f0f0; /* Light gray for default */
+  --vp-c-default-2: #e0e0e0; /* Slightly darker gray */
+  --vp-c-default-3: #e8e8e861; /* Even darker gray */
+  --vp-c-default-soft: #f9f9f9; /* Soft light gray */
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-brand-1: #345be9ac; /* Primary brand color */
+  --vp-c-brand-2: #4b69e0; /* Darker shade for hover */
+  --vp-c-brand-3: #2652f0e7; /* Darkest shade for active */
+  --vp-c-brand-soft: rgba(147, 164, 223, 0.1); /* Soft version of brand color */
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
   --vp-c-tip-3: var(--vp-c-brand-3);
   --vp-c-tip-soft: var(--vp-c-brand-soft);
 
-  --vp-c-warning-1: var(--vp-c-yellow-1);
-  --vp-c-warning-2: var(--vp-c-yellow-2);
-  --vp-c-warning-3: var(--vp-c-yellow-3);
-  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+  --vp-c-warning-1: #ffcc00; /* Yellow for warnings */
+  --vp-c-warning-2: #ffbb00; /* Darker yellow */
+  --vp-c-warning-3: #ffaa00; /* Even darker yellow */
+  --vp-c-warning-soft: rgba(255, 204, 0, 0.1); /* Soft yellow */
 
-  --vp-c-danger-1: var(--vp-c-red-1);
-  --vp-c-danger-2: var(--vp-c-red-2);
-  --vp-c-danger-3: var(--vp-c-red-3);
-  --vp-c-danger-soft: var(--vp-c-red-soft);
+  --vp-c-danger-1: #ff4d4d; /* Red for danger */
+  --vp-c-danger-2: #ff3333; /* Darker red */
+  --vp-c-danger-3: #ff1a1a; /* Even darker red */
+  --vp-c-danger-soft: rgba(255, 77, 77, 0.1); /* Soft red */
 }
 
 /**
@@ -91,17 +91,17 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-color: #345be9; /* Brand color for text */
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    #345be998 30%,
+    #345be998 30%,
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    #345be9c8 30%,
+    #345be9c8 30%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -124,10 +124,11 @@
 
 :root {
   --vp-custom-block-tip-border: transparent;
-  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-text: var(--vp-c-default-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
+
 
 /**
  * Component: Algolia
@@ -136,8 +137,6 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
-
-
 
 
 
