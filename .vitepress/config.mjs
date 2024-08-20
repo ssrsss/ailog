@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/ailog/',
   title: "Convers AI",
   description: "国内首批对接ChatGPT的双千亿级大语言模型，提供多元化服务。",
   themeConfig: {
