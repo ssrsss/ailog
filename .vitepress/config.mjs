@@ -9,7 +9,6 @@ export default defineConfig({
     logo: "logo.svg",
     outlineTitle: "文章目录",
     outline: [2, 6],
-    i18nRouting: true,
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
@@ -18,13 +17,11 @@ export default defineConfig({
       { 
         text: '功能使用示例', 
         items: [
-          { text: '图像识别', link: '/api-examples' },
-          { text: '音乐创作', link: '/api-examples' },
-          { text: '论文降重', link: '/api-examples' },
-          { text: '代码生成', link: '/api-examples' },
-          { text: '代码解释器', link: '/api-examples' },
-          { text: 'PPT大纲生成', link: '/other-examples' },
-          { text: 'Excel表格处理', link: '/markdown-examples' }
+          { text: '图像识别', link: '/s1' },
+          { text: '音乐创作', link: '/s2' },
+          { text: '代码生成', link: '/s3' },
+          { text: 'PPT演示文档生成', link: '/s4' },
+          { text: 'Excel表格处理', link: '/s5' }
           
         ]
       }
