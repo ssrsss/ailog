@@ -13,7 +13,16 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '免费使用', link: '/ling' },
-      { text: '产品介绍', link: '/features' },
+      { 
+        text: '桌面端下载', 
+        items: [
+          { text: 'Windows桌面端 (正常窗口版)', link: 'https://tc.yjie.fun/ConversAI-Win64-%E6%AD%A3%E5%B8%B8%E7%AA%97%E5%8F%A3%E7%89%88.zip' },
+          { text: 'Windows桌面端 (窗口置顶版)', link: 'https://tc.yjie.fun/ConversAI-Win64-%E9%A1%B6%E9%83%A8%E7%AA%97%E5%8F%A3%E7%89%88.zip' },
+          { text: 'iOS桌面端 (需要Safari浏览器下载)', link: 'https://tc.yjie.fun/IOS-ConversAI.mobileconfig' },
+          { text: '安卓桌面端 (待更新)', link: '/android-desktop' },
+          { text: 'MacOS桌面端 (待更新)', link: '/macos-desktop' }
+        ]
+      },
       { 
         text: '功能使用示例', 
         items: [
@@ -22,7 +31,6 @@ export default defineConfig({
           { text: '代码生成', link: '/s3' },
           { text: 'PPT演示文档生成', link: '/s4' },
           { text: 'Excel表格处理', link: '/s5' }
-          
         ]
       }
     ],
