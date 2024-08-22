@@ -18,9 +18,9 @@ export default defineConfig({
         items: [
           { text: 'Windows桌面端 (正常窗口版)', link: 'https://tc.yjie.fun/ConversAI-Win64-%E6%AD%A3%E5%B8%B8%E7%AA%97%E5%8F%A3%E7%89%88.zip' },
           { text: 'Windows桌面端 (窗口置顶版)', link: 'https://tc.yjie.fun/ConversAI-Win64-%E9%A1%B6%E9%83%A8%E7%AA%97%E5%8F%A3%E7%89%88.zip' },
-          { text: 'iOS桌面端 (需要Safari浏览器下载)', link: 'https://tc.yjie.fun/IOS-ConversAI.mobileconfig' },
-          { text: '安卓桌面端 (待更新)', link: '/android-desktop' },
-          { text: 'MacOS桌面端 (待更新)', link: '/macos-desktop' }
+          { text: 'iOS桌面端 (需要Safari浏览器下载)', link: 'https://cx.yjie.fun/ConversAI%20iOS%E6%8F%8F%E8%BF%B0%E6%96%87%E4%BB%B6.mobileconfig' },
+          { text: '安卓桌面端', link: 'https://tc.yjie.fun/ConversAI_1.0.apk' },
+          { text: 'MacOS桌面端', link: 'https://tc.yjie.fun/ConversAI-MacOS-x64.zip' }
         ]
       },
       { 
