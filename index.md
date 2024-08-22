@@ -13,11 +13,11 @@ hero:
       text: 免费使用
       link: /ling
     - theme: alt
-      text: 产品简介
-      link: /features
-    - theme: alt
       text: 访问站点
       link: https://ai1.yjie.fun/
+    - theme: alt
+      text: 桌面端下载
+      link: /app
 
 features:
   - title: Midjourney 绘画
