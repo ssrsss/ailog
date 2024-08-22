@@ -12,8 +12,14 @@ export default defineConfig({
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
-      { text: '免费使用', link: '/ling' },
       { text: '产品简介', link: '/features' },
+      { 
+        text: '备用站点', 
+        items: [
+          { text: '备用站点1', link: 'https://1.aidou.asia/' },
+          { text: '备用站点2', link: 'https://ai2.yjie.fun/' }
+        ]
+      },
       { 
         text: '功能使用示例', 
         items: [
