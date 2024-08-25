@@ -61,6 +61,12 @@ features:
 
   - title: 图像识别
     details: 识别和分析图像内容。
+
+  - title: 数据分析
+    details: 深度数据处理与分析服务。
+
+  - title: 数理推算
+    details: 解决各类数学和逻辑问题。
     
 ---
 
