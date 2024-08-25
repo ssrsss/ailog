@@ -10,10 +10,10 @@ hero:
   alt: background
   actions:
     - theme: brand
-      text: 免费使用
+      text: 使用教程
       link: /ling
     - theme: alt
-      text: 访问站点
+      text: 网页端
       link: https://ai1.yjie.fun/
     - theme: alt
       text: 桌面端下载
