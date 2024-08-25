@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Convers AI"
-  tagline: GPT-4、文心一言等模型&插件功能免费且无限制使用，畅享无障碍体验🎉国内首批对接ChatGPT的双千亿级大语言模型，提供知识问答等多元化服务！
+  tagline: GPT-4、文心一言等模型&插件功能免费且无限制使用，畅享体验🎉国内首批对接ChatGPT的双千亿级大语言模型，提供多元化服务！
   image:
     src: /background.svg
   alt: background
