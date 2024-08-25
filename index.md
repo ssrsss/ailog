@@ -13,7 +13,7 @@ hero:
       text: 使用教程
       link: /ling
     - theme: alt
-      text: 网页端
+      text: 在线使用
       link: https://ai1.yjie.fun/
     - theme: alt
       text: 桌面端下载
