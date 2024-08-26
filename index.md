@@ -16,7 +16,7 @@ hero:
       link: https://ai1.yjie.fun/
     - theme: alt
       text: 商务合作
-      link: #business-cooperation
+      link: /business-cooperation
     - theme: alt
       text: 桌面端下载
       link: /app
