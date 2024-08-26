@@ -4,10 +4,10 @@
 
 ##### 免费模型列表：
 - ChatGPT 4
-- 文心一言
+- DeepSeek-Coder-V2-Instruct
+- Qwen2-Math-72B-Instruct
 - 阿里通义千问
 - 讯飞星火
-....
 - 免费模型列表的所有模型均可免费使用<br>
 - 插件功能暂不免费，使用需开通会员(壹元起购)：[前往选择](https://youx.yjie.fun/4/)
 > 免费体验授权码(不限设备数量):
