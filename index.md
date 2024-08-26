@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -15,6 +14,9 @@ hero:
     - theme: alt
       text: 在线使用
       link: https://ai1.yjie.fun/
+    - theme: alt
+      text: 商务合作
+      link: #business-cooperation
     - theme: alt
       text: 桌面端下载
       link: /app
@@ -67,6 +69,5 @@ features:
 
   - title: 数理推算
     details: 解决各类数学和逻辑问题。
-    
----
 
+---
