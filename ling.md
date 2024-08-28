@@ -10,12 +10,8 @@
 - 讯飞星火<br>
 > 免费模型列表的所有模型均可免费使用<br>
 
-> 插件功能暂不免费，使用需开通会员(壹元起购)：[前往选择](https://youx.yjie.fun/4/)<br>
+> 免费领取授权码(不限设备数量):[立即领取](https://youx.yjie.fun/q/)<br>
 
-> 免费体验授权码(不限设备数量):<br>
- ```markdown
-sk-rQwirQ3hiKYV5Gua9f3201Ec40F9450d9216BeA429C3C4E3
-```
 <br>
 
 使用说明：
