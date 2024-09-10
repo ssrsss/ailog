@@ -9,7 +9,7 @@ hero:
   alt: background
   actions:
     - theme: brand
-      text: 使用教程
+      text: 点我体验
       link: /ling
     - theme: alt
       text: 在线使用
