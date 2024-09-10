@@ -20,7 +20,7 @@ Convers AI 提供全面的智能服务，涵盖以下功能：
 
 - **余额查询**：[点击查询](https://cx.yjie.fun/)
 - **每日签到**：[点击签到](https://youx.yjie.fun/1/)
-- **会员开通**：[点击开通](https://youx.yjie.fun/4/)
+- **会员开通**：[点击开通](https://youx.yjie.fun/4/5/)
 
 ## 客服支持
 
